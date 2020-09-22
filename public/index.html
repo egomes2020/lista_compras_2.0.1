@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista De Compras</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png"  >
+    <link rel="manifest" href="image/site.webmanifest">
+
+  
+    <!-- <link rel="stylesheet" href="/css/font-awesome.css"/> -->
+</head>
+<body>
+
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.21.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.21.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+  
+    <div class="loader"><iframe src="https://giphy.com/embed/MDrmyLuEV8XFOe7lU6" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    <div class="wrapper">
+        
+    <div id="container">
+        <header id="header">
+
+            <h1>lista de compras <i id="icon-h1" class="fas fa-shopping-cart"></i> </h1>
+        
+            <div id="clear-btn">
+                <i class="fas fa-sync"></i>
+            </div>
+
+            <div class="date"><p  id="pdate">Sábado, 05 de Set, de 2020</p></div>
+
+        </header>
+
+        <section id="content">
+
+            <ul id="list">
+
+    
+
+                <!-- li created with javascript -->
+
+                <!-- <li class="list-item"  contenteditable="true"><i class="far fa-circle" job="complete"></i><p> drink coffe <i class="fas fa-trash-alt de" job="delete"></i></p></i></li>
+                <li class="list-item"  contenteditable="true"><i class="far fa-check-circle" job="complete"></i><p><del> drink milk</del><i class="fas fa-trash-alt" job="delete"></i></p></i></li> -->
+
+            </ul>
+            <a href="" target="">
+                <i id="shareIcon" class="fas fa-share-alt"></i>
+            </a>
+
+        </section>
+
+        <footer id="footer-cont">
+            <i id="pencil" class="fas fa-pencil-alt"></i>
+            <input type="text" id="add-input" placeholder="adicionar ítem..." autofocus>
+        </footer>
+
+        <p id="copyright">&copy;<em> by Edgar Gomes</em></p>
+
+    </div>
+</div>
+    
+
+    <script src="js/script.js"></script>
+
+  
+
+</body>
+</html>
